@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: -webkit-linear-gradient(rgba(110, 0, 253, 0.815), rgba(250, 6, 209, 0.938));
+
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    transform: scale(1.04);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: blueviolet;
+}
+
+button:focus {
+    transform: scale(1.05);
+}
